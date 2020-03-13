@@ -1,0 +1,122 @@
+﻿#update {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#shortcut_diff {
+  color: #000;
+  font-size: 0.9em;
+  text-align: center;
+  border: solid 2px #000;
+}
+
+#shortcut_diff td {
+  border: solid 1px #000;
+}
+
+#changelog {
+  display: none;
+  color: #000;
+  overflow: auto;
+  width: 550px;
+  padding: 10px;
+  background-color: #82828287;
+  margin: left;
+  border-radius: 0.375em;
+}
+
+@media screen and (max-width: 760px) {
+  #changelog {
+    display: none;
+    color: #000;
+    overflow: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #82828287;
+    margin: left;
+    border-radius: 0.375em;
+  }
+}
+
+/* Chart Layout */
+
+.tableflame table {
+  border: solid 2px #000;
+  margin: 0 0 2em 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  font-size: 14px;
+}
+
+.tableflame table tbody tr {
+  border: solid 1px #000;
+  border-left: 0;
+  border-right: 0;
+  background-color: #e6ebed40;
+  color: #222222;
+}
+
+.tableflame table td {
+  padding: 0.75em 0.75em;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.tableflame table th {
+  font-size: 1em;
+  font-weight: bolder;
+  border: solid 2px #000;
+  border-left: 0;
+  border-right: 0;
+  padding: 0.75em;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #ffffff;
+}
+
+.tableflame table thead {
+  border-bottom: solid 2px #00000026;
+}
+
+.tableflame table tfoot {
+  border-top: solid 2px #ffffff26;
+}
+
+.tableflame .tr_separate {
+  height: 20px;
+  color: #000;
+  background-color: #a0a0a04d;
+}
+
+.tableflame .tr_normal {
+  background-color: #ffffff;
+}
+
+.tableflame .tr_normal_fav {
+  background-color: #e8ffe8;
+}
+
+.tableflame tr, a {
+  color: #006098;
+  /*Firefox向け*/
+  -moz-transition-property: color, background-color;
+  -moz-transition-duration: 0.2s;
+  /*Chrome、Safari向け*/
+  -webkit-transition-property: color, background-color;
+  -webkit-transition-duration: 0.2s;
+  /*Opera向け*/
+  -o-transition-property: color, background-color;
+  -o-transition-duration: 0.2s;
+  transition-property: color, background-color;
+  transition-duration: 0.2s;
+}
+
+.tableflame tr.tr_normal:hover {
+  background-color: #f8f8f8;
+}
+
+.tableflame tr.tr_normal_fav:hover {
+  background-color: #d8f8d8;
+}
