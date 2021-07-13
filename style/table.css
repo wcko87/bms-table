@@ -95,7 +95,7 @@
 }
 
 .tableflame .tr_normal_fav {
-  background-color: #d8ffd8;
+  background-color: #e0ffe0;
 }
 
 .tableflame tr, a {
@@ -114,9 +114,9 @@
 }
 
 .tableflame tr.tr_normal:hover {
-  background-color: #f0f0f0;
+  background-color: #f4f4f4;
 }
 
 .tableflame tr.tr_normal_fav:hover {
-  background-color: #c8f8c8;
+  background-color: #d0f8d0;
 }
